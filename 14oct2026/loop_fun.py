@@ -1,4 +1,5 @@
 def factorial(n):
-    return n*(n-1)
-print(factorial(3))
-print(factorial(7))
+    if n<0:
+        return "the functio i not defined for negative integers"
+    result=1
+         for i in r
